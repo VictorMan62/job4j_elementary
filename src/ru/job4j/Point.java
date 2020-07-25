@@ -6,10 +6,9 @@ public class Point {
         // B=(X2; Y2)
         // AB=d
         // d=корень из (X2-X1)в2+(Y2-Y1)в2
-        double first = Math.pow(x2-x1, 2);
-        double second = Math.pow(y2-y1, 2);
-        double rsl = Math.sqrt(first + second);
-        return rsl;
+        double first = Math.pow(x2 - x1, 2);
+        double second = Math.pow(y2 - y1, 2);
+        return Math.sqrt(first + second);
     }
 
     public static void main(String[] args) {
