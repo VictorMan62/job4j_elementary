@@ -1,5 +1,6 @@
 package ru.job4j;
 
+
 public class Calculate {
 
         public static int calc(int a, int b, int c, int x) {
