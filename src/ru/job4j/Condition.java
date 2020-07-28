@@ -21,9 +21,12 @@ package ru.job4j;
         possibleDiv(-21);
     }
 
+    @SuppressWarnings("checkstyle:RightCurly")
     public static void possibleDiv(int number) {
         if (number < 0) {
-            System.out.println(number + " is negative number");
+            System.out.println(number + " is negative");
+        } else {
+            System.out.println(number + " is positive");
         }
     }
 
