@@ -2,10 +2,12 @@ package ru.job4j;
 
 public class Point {
     public static double distance(int x1, int y1, int x2, int y2) {
-        // A=(X1; Y1)
-        // B=(X2; Y2)
-        // AB=d
-        // d=корень из (X2-X1)в2+(Y2-Y1)в2
+        /*
+        A=(X1; Y1)
+        B=(X2; Y2)
+        AB=d
+        d=корень из (X2-X1)в2+(Y2-Y1)в2
+        */
         double first = Math.pow(x2 - x1, 2);
         double second = Math.pow(y2 - y1, 2);
         return Math.sqrt(first + second);
