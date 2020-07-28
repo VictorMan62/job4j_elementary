@@ -11,7 +11,13 @@ public class Calculate {
             int b = 0;
             int c = 0;
             int x = 1;
-            int rsl = Calculate.calc(a, b, c, x);
-            System.out.println(rsl);
+            int rsl1 = Calculate.calc(a, b, c, x);
+            int rsl2 = Calculate.calc(a, b, c, x);
+            int rsl3 = Calculate.calc(a, b, c, x);
+            int rsl4 = Calculate.calc(a, b, c, x);
+            System.out.println(rsl1);
+            System.out.println(rsl2);
+            System.out.println(rsl3);
+            System.out.println(rsl4);
         }
 }
